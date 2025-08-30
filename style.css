@@ -1,0 +1,62 @@
+body {
+background-color:#004F51;
+background-size: cover;
+font-family: 'Poppins',
+    sans-serif;
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+
+}
+
+h1{
+    text-align: center;
+    color: #f7e4c3f8;
+    font-size: 80px;
+    font-weight: 900px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    text-decoration-color: #f7e4c3f8;
+}
+
+.menu ul li {
+    display: block;
+    margin: 0 15px;
+    color: #f7e4c3f8;
+}
+.menu ul li a {
+    color: #f7e4c3f8;
+    font-size: medium;
+    font-weight: 200;
+
+}
+
+h2 {
+    color: #f7e4c3f8;
+    text-align: center;
+    font-weight: 700;
+}
+
+.coders {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    height: 700px;
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+
+
+
