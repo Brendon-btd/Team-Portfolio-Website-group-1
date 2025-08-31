@@ -159,3 +159,161 @@ h2 {
 .dropdown:hover .dropbtn {
   background-color: teal;
 }
+
+@media (max-width: 600px){
+    .header {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  font-weight: bold;
+  font-size: medium;
+  padding-bottom: 50px;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+.description {
+  background: #034143;
+  border-radius: 5px;
+  width: 160px;
+  cursor: pointer;
+  transition: ease 0.5s all;
+  box-shadow: 0 4px 8px rgba(14, 14, 14, 0.2);
+  color: #fff;
+}
+
+.description h2 {
+  font-weight: 800;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.description {
+  width: 320px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin-bottom: 60px;
+  margin-right: 6px;
+  margin-left: 6px;
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.slogan h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logo {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  color: #f7e4c3f8;
+  font-size: 48px;
+  font-weight: 900px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  text-decoration-color: #f7e4c3f8;
+}
+
+.menu ul li {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 8px;
+  color: #f7e4c3f8;
+  flex-direction: column;
+}
+.menu ul li a {
+  color: #f7e4c3f8;
+  font-size: medium;
+  font-weight: 200;
+  font-size: large;
+}
+
+h2 {
+  color: #f7e4c3f8;
+  text-align: center;
+  font-weight: 1000;
+  align-items: center;
+}
+
+.coders {
+  display: block;
+  margin: 0 auto;
+  width: 340px;
+  height: 280px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.content {
+  color: #f7e4c3f8;
+  text-align: center;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.dropbtn {
+  background-color: teal;
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: teal;
+}
+}
