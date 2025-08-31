@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #004f51;
+}
+.name {
+  font-size: 50px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+/* picture and bio styling */
+.bio {
+  background: #004f51;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+  transition: ease 0.5s all;
+  box-shadow: 0 4px 8px rgba(14, 14, 14, 0.2);
+  color: #fff;
+}
+
+.bio:hover {
+  background-color: #f7e4c3;
+  color: black;
+  box-shadow: 0 4px 8px rgba(211, 208, 208, 0.2);
+}
+
+.bio li {
+  font-weight: 800;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+.intro img {
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+  margin-right: 8px;
+  margin-left: 8px;
+  box-shadow: 0 4px 8px rgba(14, 14, 14, 0.2);
+}
+
+
+.bio {
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+  margin-right: 8px;
+  margin-left: 8px;
+  padding: 10px;
+}
+
+/* Icon styling */
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands{
+    cursor: pointer;
+    transition: ease 0.3s all;
+}
+
+
+
+
+/* experience styling */
+.skills,
+.hobbies {
+  background: #004f51;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+  transition: ease 0.5s all;
+  box-shadow: 0 4px 8px rgba(14, 14, 14, 0.2);
+  color: #fff;
+}
+
+.skills:hover,
+.hobbies:hover {
+  background-color: #f7e4c3;
+  color: black;
+  box-shadow: 0 4px 8px rgba(14, 14, 14, 0.2);
+}
+
+.skills h2 {
+  font-weight: 800;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.hobbies h2 {
+  font-weight: 800;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.skills,
+.hobbies {
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
+  margin-right: 8px;
+  margin-left: 8px;
+  padding: 10px;
+}
+
+.skills ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hobbies ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.exp {
+  display: flex;
+  justify-content: space-around;
+}
